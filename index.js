@@ -64,7 +64,7 @@ app.get("/devicedata", async (req, res) => {
     })
     .then(res => res.json())
     .then(json => {
-      
+
       res.status(200).json(json);
       console.log(json);
     });
