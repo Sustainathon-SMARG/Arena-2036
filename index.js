@@ -60,11 +60,11 @@ app.get("/devicedata", async (req, res) => {
         "Content-Type": "application/json",
         'Authorization': 'Bearer ' + token,
       },
-      body: JSON.stringify({ "UID": [req.query.uid], "FCN": [["FU.effi_data"]], "FPL":[[["limit"]]], "FPD":[[[[["10"]]]]] })
+      body: JSON.stringify({ "UID": [req.query.uid], "FCN": [["FU.effi_data"]], "FPL":[[["limit"]]], "FPD":[[[[[req.query.count]]]]] })
     })
     .then(res => res.json())
     .then(json => {
-
+      json.FPD[0][0][0]
       res.status(200).json(json);
       console.log(json);
     });
