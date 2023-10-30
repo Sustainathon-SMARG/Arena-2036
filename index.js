@@ -64,7 +64,7 @@ app.get("/devicedata", async (req, res) => {
     })
     .then(res => res.json())
     .then(json => {
-      json.FPD[0][0][0]
+      
       res.status(200).json(json);
       console.log(json);
     });
