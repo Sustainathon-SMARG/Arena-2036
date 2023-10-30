@@ -3,6 +3,6 @@
 [API Docs 2](https://documenter.getpostman.com/view/20927258/2s9YXb84zk#ca26fa44-d9c5-4e3d-bc36-e073d764e761)
 
 
-[Device Cloud Portal]([https://documenter.getpostman.com/view/20927258/2s9YXb84zk#ca26fa44-d9c5-4e3d-bc36-e073d764e761](https://spaas.tecomon.net/)https://spaas.tecomon.net/)
+[Device Cloud Portal](https://documenter.getpostman.com/view/20927258/2s9YXb84zk#ca26fa44-d9c5-4e3d-bc36-e073d764e761](https://spaas.tecomon.net/)https://spaas.tecomon.net/)
 User: Uni
 Password: Uni1234
